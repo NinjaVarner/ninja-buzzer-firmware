@@ -6,6 +6,24 @@
       "hardware": "feather-s3-8m-nopsram",
       "hardware_id": 1,
       "hardware_revisions": [],
+      "firmware": "1.4.1",
+      "ota_protocol": 1,
+      "url": "https://ninjavarner.github.io/ninja-buzzer-firmware/releases/1.4.1/firmware.bin",
+      "size": 560992,
+      "sha256": "449b1569d21709b564428c3e475b7a0b260be36438dbb9e9b59a889df89854ce",
+      "release_notes": "Improved battery gauge startup and MAX17048 reading; reports battery sensor errors for easier troubleshooting.",
+      "min_app_version_code": 18,
+      "signed": false,
+      "authentication": {
+        "mode": "https-only"
+      },
+      "channel": "stable",
+      "required": false
+    },
+    {
+      "hardware": "feather-s3-8m-nopsram",
+      "hardware_id": 1,
+      "hardware_revisions": [],
       "firmware": "1.4.0",
       "ota_protocol": 1,
       "url": "https://ninjavarner.github.io/ninja-buzzer-firmware/releases/1.4.0/firmware.bin",
