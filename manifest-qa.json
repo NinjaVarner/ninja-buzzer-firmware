@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "product": "Ninja Buzzer",
+  "releases": [
+    {
+      "hardware": "feather-s3-8m-nopsram",
+      "hardware_id": 1,
+      "firmware": "1.5.1",
+      "ota_protocol": 2,
+      "size": 611424,
+      "sha256": "53293bdfefbaab157fb9c8929c695b41a85107b2c32042a4af65cce2de3d2e24",
+      "signed": true,
+      "authentication": {
+        "mode": "ecdsa-p256-sha256",
+        "key_id": "604ae11c91d278afb9f55b1dc9d5617fa5d38109a3461386a492cba9da7447ca",
+        "signature": "iHUNfu+Hdxk3BeYgqSjHF/s1NeFzDSQHPqVEHCvQgFFCGCOzwPmQFbsqNtTSkiwPQcxxDJdJzf+mdGzgI5cUzA=="
+      },
+      "hardware_revisions": [],
+      "url": "https://raw.githubusercontent.com/NinjaVarner/ninja-buzzer-firmware/test/public-signed-ota-1.5.1/releases/1.5.1/firmware.bin",
+      "release_notes": "Publisher-signed Bluetooth updates, physical update authorization, startup validation and rollback. Legacy firmware needs a one-time USB migration before signed Bluetooth updates.",
+      "min_app_version_code": 78,
+      "channel": "stable",
+      "required": false
+    }
+  ]
+}
