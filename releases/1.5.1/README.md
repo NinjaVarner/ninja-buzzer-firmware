@@ -1,7 +1,7 @@
 # Ninja Buzzer firmware 1.5.1
 
 For the Feather ESP32-S3 8MB/no-PSRAM buzzer, hardware ID1, signed OTA protocol2.
-Use Ninja Buzzer public Android app V3.10/code79 or newer.
+Use Ninja Buzzer public Android app V2.85/code79 or newer.
 
 Bluetooth updates verify a publisher signature and image compatibility/hash,
 require physical authorization, and validate startup before accepting the new
